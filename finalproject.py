@@ -3,9 +3,9 @@
 contact = {
 	"First": "Lydia", 
 	"Last": "Huang", 
-	"Tel": "619-203-0186", 
+	"Tel": "619-203-0000", 
 	"Address": "542 Mason", 
-	"Email": "lyd.huang@gmal.com"
+	"Email": "lyd.huang@mail.com"
 }
 
 def create_contact(First,Last,Tel,Address,Email):
@@ -18,7 +18,7 @@ def create_contact(First,Last,Tel,Address,Email):
 	}
 	return new_contact
 
-contact_list = [create_contact("Aaron", "Elligsen", "541-556-8263", "368 Citrus Ave", "aaron@hackbrightacademy.com")]
+contact_list = [create_contact("Aaron", "Elligsen", "541-556-8000", "200 Citrus Ave", "aaron@hackbright.com")]
 
 
 
