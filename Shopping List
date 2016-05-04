@@ -11,6 +11,7 @@ def listing(item):
 		print "List already contains", item
 	else:
 		shopping_list.append(item)
+		shopping_list.sort()
 		print shopping_list	
 		return shopping_list
 	
