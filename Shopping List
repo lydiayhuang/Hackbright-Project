@@ -1,0 +1,23 @@
+#create a list
+#add to a list
+	#check for duplication
+	#reject duplicates with messages
+#print list
+
+shopping_list = []
+
+def listing(item):
+	if item.lower() in shopping_list:
+		print "List already contains", item
+	else:
+		shopping_list.append(item)
+		print shopping_list	
+		return shopping_list
+	
+
+listing(raw_input("What do you want to add to the list?").lower())
+listing(raw_input("What do you want to add to the list?").lower())
+listing(raw_input("What do you want to add to the list?").lower())
+listing(raw_input("What do you want to add to the list?").lower())
+listing(raw_input("What do you want to add to the list?").lower())
+listing(raw_input("What do you want to add to the list?").lower())
